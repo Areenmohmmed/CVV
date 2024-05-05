@@ -262,9 +262,91 @@ body{
 }
 
 
+.all{
+  background-color: rgb(255, 255, 255);
+
+}
+.top1{
+  align-items:baseline;
+  background-color: #ffffff;
+}
+.Python{
+  float: right;
+  height: 500px;
+  width: 600px;
+  align-items: baseline;
+  align-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.IOT{
+  float: left;
+  height: 500px;
+  width: 600px;
+  align-items:baseline;
+  align-content: center;
+  background-color: rgb(255, 255, 255);
+
+}
 
 
+.IOT img{
+  border-radius: 5%;
+  border: rgb(28, 28, 121);
+  border-style: groove;
+  width: 150px;;
+  height: 350px;
+  width: 500px;
+}
 
+.Python img{
+  border-radius: 5%;
+  border: rgb(28, 28, 121);
+  border-style: groove;
+  width: 150%;
+  height: 350px;
+  width: 500px;
+}
+
+
+.third{
+  float: right;
+  height: 500px;
+  width: 600px;
+  align-items: baseline;
+  align-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.fourth{
+  float: left;
+  height: 500px;
+  width: 600px;
+  align-items:baseline;
+  align-content: center;
+  background-color: rgb(255, 255, 255);
+
+
+}
+
+
+.third img{
+  border-radius: 5%;
+  border: rgb(28, 28, 121);
+  border-style: groove;
+
+  width: 150px;;
+  height: 350px;
+  width: 500px;
+}
+
+.fourth img{
+  border-radius: 5%;
+  border: rgb(28, 28, 121);
+  border-style: groove;
+  width: 150%;
+  height: 350px;
+  width: 500px;
+
+}
 
 
 
