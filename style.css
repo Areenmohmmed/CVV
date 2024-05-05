@@ -2,13 +2,9 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 
-  }
-
-
+}
 
 @font-face {
     font-family: 'my';
@@ -16,42 +12,79 @@
   }
 
 
-  
+nav{
+    background-color:rgb(70, 70, 218);
 
-
-header {
-    position:fixed;
-    top: 15;
-    left: 10;
+    position: fixed;
     width: 100%;
-    padding: 30px 120px;
-    background: rgb(80,80,190);
-    display:inline-flex;
-    justify-content: space-between;
-    align-items:center ;
-    z-index: 50px;
 }
-
-
-
-.logo {
-    font-size: 1px;
-    color: #971f1f;
-    text-decoration: none;
-    font-weight: 600px;
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-nav a {
-    font-size: 23px;
-    color: #fff;
+nav li{
+    height: 50px;    
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
     text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: .3s;
+    display:flex;
+    align-items: center;
+    color: #000000;
 }
 nav a:hover,
 nav a.active {
-    color: rgb(51, 42, 42);
+    color: rgb(255, 255, 255);
 }
+nav li:first-child{
+    margin-right: auto;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color:  rgb(61, 61, 179);
+    backdrop-filter: blur(10px);
+    box-shadow:-10px 0 10px black;
+    display: none;
+    flex-direction: column;
+    align-items:flex-start ;
+    justify-content: flex-start;
+
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+.menu-button{
+    display: none;
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+
+    }
+    .menu-button{
+        display: block;
+    }
+}
+@media(max-width:400px){
+    .sidebar{
+        width: 100%;
+    }
+}
+
+
+
 
 section {
     min-height: 100vh;
@@ -89,8 +122,6 @@ p{
   background-position: center;
   height: 100vh;
   width: 100%;
-
-
 }
 
 .top{
@@ -122,12 +153,10 @@ p{
 
 
 }
-ul{
+.text ul{
     list-style-image: url('https://img.icons8.com/?size=24&id=90304&format=png');
 }
-body{
-    font-family: Helvetica, Arial, sans-serif;
-  }
+
   .container{
     width: 70%;
     margin: 0 auto;

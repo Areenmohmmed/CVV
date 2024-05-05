@@ -5,38 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Areen Almoqhim</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menustyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    
-    <header>
-        <a href="#" class="logo" style="color: aliceblue; font-size: 23px;">Areen</a>
-        <nav>
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About me</a>
-            <a href="#services">Skills</a>
-            <a href="#portfolio">Certifications</a>
-            <a href="#Projects">Projects </a>
-            <a href="#contact">Contact me </a>
-        </nav>
-    </header>
 
+    
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#about">home</a></li>
+            <li><a href="#services">home</a></li>
+            <li><a href="#portfolio">home</a></li>
+            <li><a href="#projects">home</a></li>
+            <li><a href="#cantact">home</a></li>
+        </ul>
+        <ul>
+            <li><a href="#home">Areen</a></li>
+            <li class="hideOnMobile"><a href="#about">home</a></li>
+            <li class="hideOnMobile"><a href="#services">home</a></li>
+            <li class="hideOnMobile"><a href="#portfolio">home</a></li>
+            <li class="hideOnMobile"><a href="#projects">home</a></li>
+            <li class="hideOnMobile"><a href="#cantact">home</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href='#'><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display ='flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display ='none'
+        }
+    </script>
 
 
 
     <section class="background" id="home" style=" min-height: 100vh; display: flex; justify-content:center; align-items:center;background-color: rgb(255, 255, 255);color: #000000;font-weight: 700;">
 
-            <body style="position:-ms-page;">  
-                    <h1> Areen Almoqhim
-                        <hr>
-                       <p> a Programmer</p>
-                    </h1> 
-                  <br/>
-                 
-            </body>    
-            <hr> 
+                <body style="position:-ms-page;">  
+                        <h1> Areen Almoqhim
+                            <hr>
+                           <p> a Programmer</p>
+                        </h1> 
+                      <br/>
+                     
+                </body>    
+                <hr> 
+    
+     </section>
 
-    </section>
 
 
 
