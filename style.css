@@ -14,7 +14,6 @@
 
 nav{
     background-color:rgb(70, 70, 218);
-
     position: fixed;
     width: 100%;
 }
@@ -41,7 +40,7 @@ nav a.active {
     color: rgb(255, 255, 255);
 }
 nav li:first-child{
-    margin-right: auto;
+  margin-right: auto;
 }
 .sidebar{
     position: fixed;
