@@ -372,49 +372,46 @@ body{
   border-style: groove;
   height: 350px;
   width: 100%;
+}
+
+
+.fifth{
+  float: left;
+  height: 500px;
+  width: 600px;
+  align-items: baseline;
+  align-content: center;
+  background-color: rgb(255, 255, 255);
+  max-width: 100%;
+}
+.sixth{
+  float: right;
+  height: 500px;
+  width: 600px;
+
+  align-items:baseline;
+  align-content: center;
+  background-color: rgb(255, 255, 255);
+  max-width: 100%;
+
 
 }
 
 
+.fifth img{
+  border-radius: 5%;
+  border: rgb(28, 28, 121);
+  border-style: groove;
+  width: 100%;
+  height: 350px;
 
-
-
-
-
-
-.flex-caontainer{
-    display: flex;
-    justify-content: flex-start;
 }
 
-.contactInfo.language .percent
-{
-    position: relative;
-    width: 100%;
-    height: 6px;
-    background: #f18384;
-    display: block;
-    margin-top: 5px;
+.sixth img{
+  border-radius: 5%;
+  border: rgb(28, 28, 121);
+  border-style: groove;
+  height: 350px;
+  width: 100%;
 }
-.contactInfo.language .percent div
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #620305;
-}
-#object1 {
-    width: 500px;
-    height: 200px;
-    background-color: green;
-    object-fit: none;
-    object-position: center top;
-  }
-  #object2 {
-    width: 500px;
-    height: 200px;
-    background-color: green;
-    object-fit: none;
-    object-position: 50px 30px;
-  }
+
