@@ -84,9 +84,10 @@ p{
 .background{
   background-image: url('back.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% ;
-  max-width: 100%; 
+  background-attachment:fixed;
+  background-size: cover;
+  background-position: center;
+
 }
 
 .top{
@@ -332,7 +333,7 @@ body{
 
 
 .third{
-  float: right;
+  float: left;
   height: 500px;
   width: 600px;
   align-items: baseline;
@@ -341,7 +342,7 @@ body{
   max-width: 100%;
 }
 .fourth{
-  float: left;
+  float: right;
   height: 500px;
   width: 600px;
 
