@@ -6,20 +6,17 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 
-}
-.column {
-  width: 100%;
-}
-
-@media (min-width: 600px) {
-  .column {
-    width: 50%;
   }
-}
+
+
+
 @font-face {
     font-family: 'my';
     src: url(sansation_light.woff);
   }
+
+
+  
 
 
 header {
