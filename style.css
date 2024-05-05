@@ -81,6 +81,13 @@ p{
     position: -ms-page;
     text-align: center;
 }
+.background{
+  background-image: url('back.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% ;
+  max-width: 100%; 
+}
 
 .top{
     background-color:  rgb(255, 255, 255);
