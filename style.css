@@ -61,6 +61,7 @@ section {
     background-color: rgb(255, 255, 255);
     color: #000000;
     font-weight: 700;
+    max-width: 100%;
 }
 
 h1 {
@@ -95,6 +96,8 @@ p{
     padding-left: 50px;
     padding-top: 45px;
     padding-bottom: 55px;
+    width:100%;
+
 }
 .text{
     float:right;
@@ -299,18 +302,18 @@ body{
   border-radius: 5%;
   border: rgb(28, 28, 121);
   border-style: groove;
-  width: 150px;;
+  width: 100%;;
   height: 350px;
-  width: 500px;
+  width: 100%;
 }
 
 .Python img{
   border-radius: 5%;
   border: rgb(28, 28, 121);
   border-style: groove;
-  width: 150%;
+  width: 100%;
   height: 350px;
-  width: 500px;
+  width: 100%;
 }
 
 
@@ -324,8 +327,8 @@ body{
 }
 .fourth{
   float: left;
-  height: 500px;
-  width: 600px;
+  height: 100%;
+  width: 100%;
   align-items:baseline;
   align-content: center;
   background-color: rgb(255, 255, 255);
@@ -338,19 +341,17 @@ body{
   border-radius: 5%;
   border: rgb(28, 28, 121);
   border-style: groove;
-
-  width: 150px;;
+  width: 100%;
   height: 350px;
-  width: 500px;
+
 }
 
 .fourth img{
   border-radius: 5%;
   border: rgb(28, 28, 121);
   border-style: groove;
-  width: 150%;
   height: 350px;
-  width: 500px;
+  width: 100%;
 
 }
 
