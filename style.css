@@ -294,6 +294,16 @@ body{
   background-color: #ffffff;
   max-width: 100%;
 }
+.middle{
+  align-items:baseline;
+  background-color: #ffffff;
+  max-width: 100%;
+}
+.bottom1{
+  align-items:baseline;
+  background-color: #ffffff;
+  max-width: 100%;
+}
 .Python{
   float: right;
   height: 500px;
