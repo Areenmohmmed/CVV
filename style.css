@@ -85,9 +85,10 @@ p{
 .top{
     background-color:  rgb(255, 255, 255);
     float: inline-start;
+
 }
 .bottom{
-    float:left;
+    float:bottom;
     background-color:  rgb(253, 255, 255);
 }
 .imageme{
@@ -96,7 +97,9 @@ p{
     padding-left: 50px;
     padding-top: 45px;
     padding-bottom: 55px;
-    width:100%;
+    max-width: 100%;
+    width:fit-content
+
 
 }
 .text{
@@ -308,7 +311,7 @@ body{
   border-style: groove;
   width: 100%;;
   height: 350px;
-  width: 100%;
+  max-width: 100%;
 }
 
 .Python img{
@@ -317,7 +320,7 @@ body{
   border-style: groove;
   width: 100%;
   height: 350px;
-  width: 100%;
+  max-width: 100%;
 }
 
 
@@ -328,14 +331,17 @@ body{
   align-items: baseline;
   align-content: center;
   background-color: rgb(255, 255, 255);
+  max-width: 100%;
 }
 .fourth{
   float: left;
-  height: 100%;
-  width: 100%;
+  height: 500px;
+  width: 600px;
+
   align-items:baseline;
   align-content: center;
   background-color: rgb(255, 255, 255);
+  max-width: 100%;
 
 
 }
