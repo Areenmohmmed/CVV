@@ -93,6 +93,7 @@ nav li:first-child{
 /* css of all section */
 section {
     min-height: 100vh;
+    max-height:min-content;
     justify-content:center; 
     align-items:center;
     display: flex;
@@ -151,12 +152,13 @@ p{
   align-items:baseline;
 }
 .imageme{ 
-  max-width: 40%;
+  max-width: 70%;
   height: auto;
   float: left;
   margin-top: 10%;
   margin-bottom: 10%;
-  margin-left: 15%;
+  margin-left: 10%;
+
 }
 .text{
   float: right;
