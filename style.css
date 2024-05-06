@@ -16,6 +16,7 @@ nav{
     background-color:rgb(70, 70, 218);
     position: fixed;
     width: 100%;
+    font-size: 20px;
 }
 nav ul{
     width: 100%;
@@ -33,11 +34,12 @@ nav a{
     text-decoration: none;
     display:flex;
     align-items: center;
-    color: #000000;
+    color: #ffffff;
+    box-shadow: #000000;
 }
 nav a:hover,
 nav a.active {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 nav li:first-child{
   margin-right: auto;
@@ -49,9 +51,9 @@ nav li:first-child{
     height: 100vh;
     width: 250px;
     z-index: 999;
-    background-color:  rgb(61, 61, 179);
+    background-color:  rgba(61, 61, 179, 0.404);
     backdrop-filter: blur(10px);
-    box-shadow:-10px 0 10px black;
+    box-shadow:-10px 0 10px rgb(0, 0, 0);
     display: none;
     flex-direction: column;
     align-items:flex-start ;
@@ -126,34 +128,40 @@ p{
 .top{
     background-color:  rgb(255, 255, 255);
     float: inline-start;
+    align-items: center;
 
 }
 .bottom{
     float:bottom;
     background-color:  rgb(253, 255, 255);
+    position: -ms-page;
+    border: #000000;
 }
 .imageme{
-    float: left;
-    padding-right: 100px;
-    padding-left: 50px;
-    padding-top: 45px;
-    padding-bottom: 55px;
-    max-width: 100%;
-    width:fit-content
+  float: left;
+  margin-left: 10%;
 
-
+  padding-top: 45px;
+  padding-bottom: 55px;
+  max-width: 100%;
+  width:fit-content
 }
 .text{
-    float:right;
-    padding-right: 15px;
-    padding-bottom: 50px;
-    padding-top: 120px;
-    padding-left: 55px;
-
-
+  float:right;
+  padding-bottom: 50px;
+  padding-top: 120px;
+  margin-right: 10%;
 }
 .text ul{
     list-style-image: url('https://img.icons8.com/?size=24&id=90304&format=png');
+}
+.text a{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+}
+.text a:hover{
+  color: rgb(177, 146, 202);
 }
 
   .container{
@@ -313,11 +321,15 @@ p{
 }
 
 
+
+
+
 .all{
   background-color: rgb(255, 255, 255);
   max-width: 100%;
 
 }
+
 .top1{
   align-items:baseline;
   background-color: #ffffff;
@@ -327,11 +339,13 @@ p{
   align-items:baseline;
   background-color: #ffffff;
   max-width: 100%;
+
 }
 .bottom1{
-  align-items:baseline;
+  align-items: baseline;
   background-color: #ffffff;
   max-width: 100%;
+
 }
 .Python{
   float: right;
@@ -428,7 +442,6 @@ p{
   height: 500px;
   width: 600px;
 
-  align-items:baseline;
   align-content: center;
   background-color: rgb(255, 255, 255);
   max-width: 100%;
@@ -443,6 +456,7 @@ p{
   border-style: groove;
   width: 100%;
   height: 350px;
+  max-width: 100%;
 
 }
 
@@ -452,5 +466,6 @@ p{
   border-style: groove;
   height: 350px;
   width: 100%;
+  max-width: 100%;
 }
 
