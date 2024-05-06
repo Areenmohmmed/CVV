@@ -17,6 +17,8 @@ nav{
     position: fixed;
     width: 100%;
     font-size: 20px;
+    border-bottom-left-radius: 15%;
+    border-bottom-left-radius: 15% ;
 }
 nav ul{
     width: 100%;
@@ -100,7 +102,7 @@ section {
 
 h1 {
     color: #ffffff;
-    font-size: 65px;
+    font-size: 6vw;
     font-style: italic;
     position:-ms-page ;
     text-align: center;
@@ -118,7 +120,7 @@ p{
 .background{
   background-image: url('back.png');
   background-repeat: no-repeat;
-  background-attachment:fixed;
+  background-attachment:scroll;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -133,24 +135,25 @@ p{
 
 }
 .bottom{
-    float:bottom;
+  float: bottom ;
     background-color:  rgb(253, 255, 255);
     position: -ms-page;
     border: #000000;
+    align-items: center;
 }
 .imageme{
   float: left;
-  margin-left: 10%;
-
-  padding-top: 45px;
-  padding-bottom: 55px;
-  max-width: 100%;
-  width:fit-content
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 10%;
+  margin-left:10% ;
+  
 }
 .text{
   float:right;
   padding-bottom: 50px;
-  padding-top: 120px;
+  margin-top: 13%;
   margin-right: 10%;
 }
 .text ul{
