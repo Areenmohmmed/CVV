@@ -151,12 +151,12 @@ p{
   align-items:baseline;
 }
 .imageme{ 
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
   float: left;
   margin-top: 10%;
   margin-bottom: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
 }
 .text{
   float: right;
