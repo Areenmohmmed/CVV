@@ -432,3 +432,27 @@ p{
   font-weight: 400px;
   align-items: center;
 }
+/*End of Projects Section*/
+
+footer{
+  text-align: center;
+  padding: 50px;
+  background-color: rgb(70, 70, 218);
+  color: #000
+  
+}
+
+footer h1{
+  font-size: 36px;
+  font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+
