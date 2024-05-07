@@ -312,11 +312,10 @@ p{
   border-radius: 5%;
   border: rgb(28, 28, 121);
   border-style: groove;
-  width: 100%;;
   height: 350px;
-  max-width: 85%;
-  margin-left: 60px;
-  margin-right: 10px;
+  max-width: 93%;
+  margin-left: 10px;
+  margin-right: 0px;
 }
 
 .Python img{
@@ -325,9 +324,9 @@ p{
   border-style: groove;
   width: 100%;
   height: 350px;
-  max-width: 85%;
-  margin-left: 60px;
-  margin-right: 10px;
+  max-width: 93%;
+  margin-left: 10px;
+  margin-right: 45px;
 }
 
 .third{
@@ -353,19 +352,21 @@ p{
   border: rgb(28, 28, 121);
   border-style: groove;
   width: 100%;
-  max-width: 85%;
-  margin-left: 60px;
-  margin-right: 10px;
+  height: 350px;
+  max-width: 93%;
+  margin-left: 10px;
+  margin-right: 0px;
 }
 
 .fourth img{
   border-radius: 5%;
   border: rgb(28, 28, 121);
   border-style: groove;
+  width: 100%;
   height: 350px;
-  max-width: 85%;
-  margin-left: 60px;
-  margin-right: 10px;
+  max-width: 93%;
+  margin-left: 10px;
+  margin-right: 0px;
 }
 
 
@@ -390,20 +391,22 @@ p{
   border-radius: 5%;
   border: rgb(28, 28, 121);
   border-style: groove;
-  max-width: 85%;
+  width: 100%;
   height: 350px;
-  margin-left: 60px;
-  margin-right: 10px;
+  max-width: 93%;
+  margin-left: 10px;
+  margin-right: 0px;
 }
 
 .sixth img{
   border-radius: 5%;
   border: rgb(28, 28, 121);
   border-style: groove;
+  width: 100%;
   height: 350px;
-  max-width: 85%;
-  margin-left: 60px;
-  margin-right: 10px;
+  max-width: 93%;
+  margin-left: 10px;
+  margin-right: 0px;
 
 }
 /* End of Certification Section*/
@@ -418,21 +421,23 @@ p{
 .leftt{
   float: left;
   align-items: center;
-  width: 600px;
+  width: 350px;
   height: 350px;
   max-width: 100%;
-  margin-bottom: 0px;
-
+  margin-left: 30px;
+  margin-bottom: 40px;
+  padding: 30px;
 }
 
 .right{
   float: right;
   align-items: center;
-  width: 600px;
+  width: 350px;
   height: 350px;
   max-width: 100%;
-  margin-bottom: 20px;
-
+  margin-bottom: 100px;
+  margin-left: 30px;
+  padding: 30px;
 }
 
 .mother li{
@@ -440,6 +445,7 @@ p{
   font-size:25px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400px;
+  list-style:circle;
 }
 /*End of Projects Section*/
 
