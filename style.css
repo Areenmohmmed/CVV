@@ -219,9 +219,10 @@ p{
   }
   
   .bar{
-    background-color: #EEE;
+    background-color: #d0d8ff;
     padding: 3px;
     border-radius: 15px;
+    border-color: #000000;
     margin-bottom: 5px;
     font-size: 14px;
     color: #FFF;
@@ -238,6 +239,7 @@ p{
     -webkit-animation: load 2s 0s;
     -moz-animation: load 2s 0s;
     -o-animation: load 2s 0s;
+ 
   }
   
   .bar.front::before{
@@ -530,19 +532,7 @@ p{
 
 
 
-footer{
-  text-align: center;
-  padding: 350px;
-  background-color: rgb(28,28,121);
 
-  
-}
-
-footer h1{
-  font-size: 36px;
-  font-weight: 700;
-
-}
 
 
 
