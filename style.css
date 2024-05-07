@@ -108,7 +108,7 @@ section {
 
 h1 {
     color: #ffffff;
-    font-size: 6vw;
+    font-size: 40px;
     font-style: italic;
     position:-ms-page ;
     text-align: center;
@@ -165,9 +165,12 @@ p{
   margin-bottom: 10%;
   margin-top: 17%;
   margin-right: 15%;
+  font-size: 25px;
 }
 .text ul{
-    list-style-image: url('https://img.icons8.com/?size=24&id=90304&format=png');
+  /*list-style-image: url('https://img.icons8.com/?size=24&id=90304&format=png');*/
+  list-style-image: url('bubble.png');
+
 }
 
 /* linke in link in about me sections */
@@ -396,6 +399,9 @@ p{
 }
 /* End of Certification Section*/
 
+
+
+
 .mother{
   background-color: #ffffff;
   max-width: 100%;
@@ -403,16 +409,26 @@ p{
   align-content: center;
 }
 .left{
+
   background-color: rgb(255, 255, 255);
+  align-items: center;
+  width: 500px;
+  height: 350px;
+  margin-bottom: 5%
 }
 
 .right{
   background-color: rgb(255, 255, 255);
+  align-items: center;
+  width: 500px;
+  height: 350px;
+  margin-bottom: 20%;
 }
 
 .mother li{
   color: rgb(28, 28, 121);
-  font-size:3vw;
+  font-size:25px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400px;
+  align-items: center;
 }
