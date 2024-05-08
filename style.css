@@ -158,7 +158,7 @@ p{
 .bottom{
   float: bottom ;
   position: -ms-page;
-  align-items: center;
+  align-items: baseline;
 }
 .imageme{ 
   max-width: 70%;
@@ -276,10 +276,11 @@ p{
 
 .all{
   max-width: 100%;
+  
 }
 
 .top1{
-  align-items:baseline;
+  align-items: baseline;
   max-width: 100%;
 
 }
@@ -289,7 +290,7 @@ p{
 
 }
 .bottom1{
-  align-items: baseline;
+  align-items:baseline;
   max-width: 100%;
   justify-content: space-evenly;
 }
