@@ -420,7 +420,8 @@ p{
 
 .mother{
   max-width: 100%;
-  align-content: space-evenly;
+  /*align-content:space-evenly;*/
+  align-items: center;
 }
 
 .leftt{
@@ -433,7 +434,7 @@ p{
 .right{
   float: right;
   width: 350px;
-  margin: 50px;
+  margin:50px;
 
 }
 
