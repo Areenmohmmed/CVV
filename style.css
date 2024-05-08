@@ -417,6 +417,7 @@ p{
 
 .mother{
   max-width: 100%;
+  align-self: start;
 }
 
 .leftt{
