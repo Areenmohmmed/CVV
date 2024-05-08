@@ -546,7 +546,7 @@ footer{
   right: 0;
   background: rgb(28, 28, 121);
   height: auto;
-  width: 100vw;
+  width: 99vw;
   font-family: "Open Sans";
   padding-top: 35px;
   color: #fff;
@@ -595,7 +595,7 @@ footer{
 
 .footer-bottom{
   background: #0f1b5f;
-  width: 100vw;
+  width: 99vw;
   padding: 20px 0;
   text-align: center;
 }
