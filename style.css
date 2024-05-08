@@ -150,6 +150,7 @@ p{
 .top hr{
   height: 2px;
   background-color: rgb(75, 42, 165);
+  align-items: start;
 }
 .bottom{
   float: bottom ;
