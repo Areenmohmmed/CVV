@@ -126,7 +126,7 @@ p{
 }
 
 .background{
-  background-image: url('back.png');
+  background-image: url('background.png');
   background-repeat: no-repeat;
   background-attachment:scroll;
   background-size: cover;
@@ -413,6 +413,7 @@ p{
 
 
 
+/*projwcts section*/
 
 .mother{
   max-width: 100%;
@@ -537,7 +538,7 @@ p{
 
 
 
-
+/* footer */
 footer{
   position:0;
   bottom: 0;
@@ -604,9 +605,8 @@ footer{
   text-transform: capitalize;
 }
 .footer-bottom span{
-  
   text-transform: uppercase;
   opacity: .7;
   font-weight: 200;
-
 }
+/*end of footer css*/
