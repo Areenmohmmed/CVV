@@ -420,7 +420,6 @@ p{
 }
 
 .leftt{
-  float: left;
   align-items: center;
   width: 350px;
   height: 350px;
@@ -431,7 +430,6 @@ p{
 }
 
 .right{
-  float: right;
   align-items: center;
   width: 350px;
   height: 350px;
